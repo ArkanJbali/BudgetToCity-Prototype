@@ -16,6 +16,9 @@ nav {
 hr{
   border: 0.5px solid white;
 }
+a{
+  cursor: pointer;
+}
 span{
   font-weight: bold;
 }

@@ -9,15 +9,11 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 })
 export class AppComponent {
   title = 'PrototypeApplication';
-  sliderValue = 0;
-  public modalRef: BsModalRef; // {1}
-  constructor(private modalService: BsModalService) {} // {2}
 
-  public openModal(template: TemplateRef<any>) {
-    this.modalRef = this.modalService.show(template); // {3}
+  aboutURL() {
+    window.location.href = 'http://localhost:4200/about';
   }
-  valueChanged(e) {
-    console.log('e', e);
-    this.sliderValue = e;
-}
+  flightURL() {
+    window.location.href = 'http://localhost:4200/flights';
+  }
 }
