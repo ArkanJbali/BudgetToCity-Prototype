@@ -4,7 +4,7 @@
   margin-top: 5%;
 }
 .img-card{
-  background: url("C:\Users\arkan\Documents\UniFolders\SeniorI\Prototype\PrototypeApplication\src\assets\travelAbout1.jpg") no-repeat center;
+  background: url("src\assets\travelAbout1.jpg") no-repeat center;
   height: 100%;
   width: 100%;
   display: block;
@@ -12,7 +12,7 @@
   border-radius: 4px;
 }
 .header{
-  background: url("C:\Users\arkan\Documents\UniFolders\SeniorI\Prototype\PrototypeApplication\src\assets\travelsAbout.jpg") no-repeat top center fixed;
+  background: url("src\assets\travelsAbout.jpg") no-repeat top center fixed;
   background-size: cover;
   height: 730px;
   width: 100%;

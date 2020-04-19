@@ -1,5 +1,6 @@
 .img-background{
-  background: url("C:\Users\arkan\Documents\UniFolders\SeniorI\Prototype\PrototypeApplication\src\assets\flightPage.jpg") no-repeat top center fixed;
+
+  background: url("src\assets\flightPage.jpg") no-repeat top center fixed;
   height: 91.3%;
   width: 100%;
 }
